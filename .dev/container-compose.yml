@@ -6,7 +6,7 @@ services:
       context: ..
       dockerfile: .dev/django.dockerfile
     volumes:
-      - ..decide:/workspace
+      - ../decide:/workspace
 
     command: sleep infinity
 
