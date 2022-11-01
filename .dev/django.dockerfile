@@ -7,4 +7,6 @@ RUN apk add --no-cache postgresql-dev libc-dev gcc g++ make libffi-dev python3-d
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+EXPOSE 8000
+
 COPY .dev/container_settings.py local_settings.py
