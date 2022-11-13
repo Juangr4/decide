@@ -28,16 +28,16 @@ MODULES = [
     'voting',
 ]
 
-BASEURL = 'http://10.5.0.1:8000'
+BASEURL = 'http://nginx:80'
 
 APIS = {
-    'authentication': 'http://10.5.0.1:8000',
-    'base': 'http://10.5.0.1:8000',
-    'booth': 'http://10.5.0.1:8000',
-    'census': 'http://10.5.0.1:8000',
-    'mixnet': 'http://10.5.0.1:8000',
-    'postproc': 'http://10.5.0.1:8000',
-    'store': 'http://10.5.0.1:8000',
-    'visualizer': 'http://10.5.0.1:8000',
-    'voting': 'http://10.5.0.1:8000',
+    'authentication': 'http://nginx:80',
+    'base': 'http://nginx:80',
+    'booth': 'http://nginx:80',
+    'census': 'http://nginx:80',
+    'mixnet': 'http://nginx:80',
+    'postproc': 'http://nginx:80',
+    'store': 'http://nginx:80',
+    'visualizer': 'http://nginx:80',
+    'voting': 'http://nginx:80',
 }

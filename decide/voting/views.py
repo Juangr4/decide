@@ -68,6 +68,7 @@ class VotingUpdate(generics.RetrieveUpdateDestroyAPIView):
                 msg = 'Voting already started'
                 st = status.HTTP_400_BAD_REQUEST
             else:
+                voting.create_pubkey()
                 voting.start_date = timezone.now()
                 voting.save()
                 msg = 'Voting started'
